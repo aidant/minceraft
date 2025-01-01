@@ -11,7 +11,7 @@ primary_region = 'syd'
   EULA = true
   ICON = "https://cdn.discordapp.com/icons/142499246430486528/b3c8381a61e36f17da7cd3545076d4c5.webp"
   MAX_WORLD_SIZE = 12288
-  MEMORY = "3G"
+  MEMORY = "7G"
   MOTD = "A land down under"
   OPS = "39f4d0d2-197b-494a-a3b4-252c24b7d124"
   PLAYER_IDLE_TIMEOUT = 30 # min
@@ -24,8 +24,9 @@ primary_region = 'syd'
   USE_AIKAR_FLAGS = true
   VANILLATWEAKS_SHARECODE = "bViW4M,Ta0hEj,mExaU4"
   VERSION = "1.21.4"
+  RESOURCE_PACK = "https://cdn.aidan.pro/minecraft/VanillaTweaks_r613065_MC1.21.x.zip"
   VIEW_DISTANCE = 32
-  WHITELIST = "AkiraYasha,Argus_Velodon,assassinator98,BRMixer,Captian_Gingarr,charlese2,DesktopTv,Hamsterdrive,Himatron,lazy_gamer,lolwerty,Luwilightxoxo,Nahtan1305,Smallsey4,UNIXKernalPanic,Weltherrschaft,widge42,Xx_Pyrotonic_xX,Yggdrasl,ZAdogZ"
+  WHITELIST = "AkiraYasha,Alteraze,Argus_Velodon,assassinator98,BRMixer,Captian_Gingarr,charlese2,DesktopTv,DiManco,Gutrix_HD,Hamsterdrive,Himatron,lazy_gamer,lolwerty,Luwilightxoxo,Nahtan1305,Smallsey4,UNIXKernalPanic,Velodon,Weltherrschaft,widge42,Xx_Pyrotonic_xX,Yggdrasl,ZAdogZ"
 
 [build]
   image = "itzg/minecraft-server:latest"
@@ -51,8 +52,8 @@ primary_region = 'syd'
     grace_period = "30s"
 
 [[vm]]
-  memory = "4GB"
-  cpus = 2
+  memory = "8GB"
+  cpus = 4
   cpu_kind = "performance"
 
 [mounts]
