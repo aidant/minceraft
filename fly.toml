@@ -53,7 +53,7 @@ primary_region = 'syd'
 
 [[vm]]
   memory = "8GB"
-  cpus = 2
+  cpus = 4
   cpu_kind = "performance"
 
 [mounts]
