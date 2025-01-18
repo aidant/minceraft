@@ -11,6 +11,7 @@ primary_region = 'syd'
   EULA = true
   ICON = "https://cdn.discordapp.com/icons/142499246430486528/b3c8381a61e36f17da7cd3545076d4c5.webp"
   JVM_XX_OPTS = "-XX:MaxRAMPercentage=75"
+  MAX_TICK_TIME=150000
   MAX_WORLD_SIZE = 12288
   MEMORY = ""
   MOTD = "A land down under"
@@ -52,8 +53,8 @@ primary_region = 'syd'
     interval = "300s"
 
 [[vm]]
-  memory = "8GB"
-  cpus = 4
+  memory = "6GB"
+  cpus = 2
   cpu_kind = "performance"
 
 [mounts]
